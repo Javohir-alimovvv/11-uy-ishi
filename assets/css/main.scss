@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.container {
+    max-width: 1440px;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.card {
+    width: 350px;
+    height: auto;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    border: 1px solid grey;
+}
+
+.img {
+    width: 320px;
+    height: 300px;
+}
+
+.title_text {
+    max-width: 330px;
+    font-size: 22px;
+    color: rgb(0, 254, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.description_text {
+    font-size: 18px;
+    max-width: 330px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.dollor_text {
+    font-size: 18px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.btn_group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn_git {
+    width: 120px;
+    height: 40px;
+    border: transparent;
+    border-radius: 8px;
+    background: rgb(0, 248, 0);
+    color: white;
+    font-weight: 700px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .6s;
+
+    &:hover {
+        background: white;
+        color: rgb(0, 248, 0);
+        border: 2px solid rgb(0, 248, 0);
+        transition: .5s;
+    }
+}
+
+.btn_delete {
+    width: 120px;
+    height: 40px;
+    border: transparent;
+    border-radius: 8px;
+    background: red;
+    color: white;
+    font-weight: 700px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: .6s;
+
+    &:hover {
+        background: white;
+        color: red;
+        border: 2px solid red;
+        transition: .5s;
+    }
+}
+
+.savat {
+    width: 300px;
+    height: 50px;
+    border: 1px solid green;
+    background: white;
+    color: green;
+    font-size: 32px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.shopping {
+    margin-top: 30px;
+    width: 500px;
+    height: 400px;
+    overflow-y: auto;
+    padding: 0px 14px 0px 14px;
+    border: 1px solid grey;
+    display: none;
+}
+
+.buy_img {
+    width: 300px;
+    height: 250px;
+}
+
+.buy_sum {
+    font-size: 18px;
+    color: red;
+}
